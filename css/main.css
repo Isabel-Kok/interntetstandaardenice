@@ -1,0 +1,200 @@
+/* layout op de pagina */
+
+body {
+    font-size: 36px;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    position: relative;
+    left: 43%;
+}
+
+
+footer{
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+/* plaatjes */
+
+#ijskamer {
+    margin-inline: auto;
+    margin-block: auto;
+    width: 1400px;
+    height: 700px;
+    position: relative;
+    border-style: double;
+    border-radius: 15px;
+    border-width: 15px;
+    border-color: lightcoral;
+}
+
+#backgroundice {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#foto {
+    position: absolute;
+    height: 155px;
+    bottom: 430px;
+    right: 40px;
+}
+
+#defaultcone {
+    position: absolute;
+    height: 200px;
+    bottom: 20px;
+    left: 630px;
+}
+
+#defaultice {
+    position: absolute;
+    height: 180px;
+    left: 600px;
+    bottom: 180px;
+}
+
+#cone {
+    position: absolute;
+    height: 150px;
+    bottom: 20px;
+    left: 40px;
+}
+
+#cup {
+    position: absolute;
+    height: 100px;
+    bottom: 200px;
+    left: 225px;
+}
+
+#conemedium {
+    position: absolute;
+    height: 150px;
+    left: 50px;
+    bottom: 20px;
+    left: 220px;
+}
+
+#conebig {
+    position: absolute;
+    height: 70px;
+    left: 20px;
+    bottom: 200px;
+}
+
+#strawberryice {
+    position: absolute;
+    height: 110px;
+    right: 20px;
+    bottom: 20px;
+    animation: 1s schud infinite;
+}
+
+#lemonice {
+    position: absolute;
+    height: 110px;
+    right: 200px;
+    bottom: 20px;
+    animation: 1s schud infinite;
+
+}
+
+#orangeice {
+    position: absolute;
+    height: 110px;
+    right: 20px;
+    bottom: 150px;
+    animation: 1s schud infinite;
+
+}
+
+#pistacheice {
+    position: absolute;
+    height: 110px;
+    right: 200px;
+    bottom: 150px;
+    animation: 1s schud infinite;
+
+}
+
+#vanillaice {
+    position: absolute;
+    height: 110px;
+    right: 20px;
+    bottom: 280px;
+    animation: 1s schud infinite;
+
+}
+
+#yoghurtberryice {
+    position: absolute;
+    height: 110px;
+    right: 200px;
+    bottom: 280px;
+    animation: 1s schud infinite;
+
+}
+
+#tekstinput {
+    font-family:'Brush Script MT', cursive;
+    font-size: 0.8em;
+    padding: 0 100px;
+    position: absolute;
+    top: 440px;
+    left: 10px;
+}
+
+#tekst {
+    font-family:'Brush Script MT', cursive;
+    padding: 5px;
+    font-size: .8em;
+    width: 15em;
+    position: absolute;
+    top: 110px;
+    left: 40%;
+}
+
+#whipped{
+    position: absolute;
+    height: 173px;
+    left: 642px;
+    bottom: 286px; 
+}
+
+#bus{
+    position: absolute;
+    height: 216px;
+    left: 158px;
+    bottom: 306px;
+}
+
+@keyframes schud {
+    0% {
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(0);
+    }
+    70%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
